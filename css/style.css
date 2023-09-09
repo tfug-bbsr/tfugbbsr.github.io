@@ -1,0 +1,45 @@
+/* Custom CSS for Event Cards */
+.event-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+  }
+  
+  .event-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .event-card .card-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .event-card .btn-warning {
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-card .btn-warning:hover {
+    background-color: #FF8C00;
+  }
+  
+  /* Customize the styling for the date and location */
+  .event-card .event-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-card .event-details i {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Keras Community Day",
+      "date": "Sept 30, 2023",
+      "location": "Online",
+      "shortDescription": "Keras Community Day is a series of events focused on Keras and machine learning, led by machine learning communities around the world.",
+      "banner": "./assets/events/kcd/kcd.png",
+      "link": ""
+    },
+    {
+        "title": "Explore TFJs",
+        "date": "TBD",
+        "location": "TBD",
+        "shortDescription": "Explore the magic of TFJs",
+        "banner": "./assets/events/tfugbbsr.png",
+        "link": ""
+      }
+  ]
+  
