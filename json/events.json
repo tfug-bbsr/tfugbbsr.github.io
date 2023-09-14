@@ -1,7 +1,7 @@
 [
     {
       "title": "Keras Community Day",
-      "date": "Sept 30, 2023",
+      "date": "2023-09-30",
       "location": "Online",
       "shortDescription": "Keras Community Day is a series of events focused on Keras and machine learning, led by machine learning communities around the world.",
       "banner": "./assets/events/kcd/kcd.png",
@@ -9,9 +9,25 @@
     },
     {
         "title": "Explore TFJs",
-        "date": "TBD",
+        "date": "2023-10-15",
         "location": "TBD",
         "shortDescription": "Explore the magic of TFJs",
+        "banner": "./assets/events/tfugbbsr.png",
+        "link": ""
+      },
+      {
+        "title": "Google IO Extended Bhubaneswar",
+        "date": "2023-07-22",
+        "location": "Trident College, BBSR",
+        "shortDescription": "Google I/O Extended 2023 Bhubaneswar",
+        "banner": "./assets/events/tfugbbsr.png",
+        "link": ""
+      },
+      {
+        "title": "Deploying Your First ML Model on GCP",
+        "date": "2023-05-06",
+        "location": "Srushti Academy, BBSR",
+        "shortDescription": "Developing and Deploying Your First Machine Learning Model on Google Cloud",
         "banner": "./assets/events/tfugbbsr.png",
         "link": ""
       }
