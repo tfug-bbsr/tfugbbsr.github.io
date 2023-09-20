@@ -1,13 +1,16 @@
 
   /* Gallery Section Styles */
   #gallery {
-    background-color: #ffffff;
-    padding: 50px 0;
-  }
+    background-image: url('../assets/img/home-footer-lines.png'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+    background-color: #0f0e0e; /* Change text color to white for better visibility */
+    padding: 50px 0; /* Adjust padding as needed */
+}
 
   #gallery h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
   }
 
   #imageCarousel {
