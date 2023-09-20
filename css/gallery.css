@@ -1,0 +1,37 @@
+
+  /* Gallery Section Styles */
+  #gallery {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+
+  #gallery h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  #imageCarousel {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+
+  .carousel-indicators li {
+    background-color: #777;
+    border: 1px solid #ddd;
+  }
+
+  .carousel-indicators li.active {
+    background-color: #D00000; /* Active indicator color */
+  }
+
+  .carousel-inner {
+    text-align: center;
+  }
+
+  .carousel-inner img {
+    max-height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
