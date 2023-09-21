@@ -1,0 +1,78 @@
+/* Hero Section */
+#hero {
+    
+    background-position: center;
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  #hero .btn-primary {
+    background-color: #D00000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #hero .btn-primary:hover {
+    background-color: #FF6F00;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  /* Call for Speakers Section */
+  #call-for-speakers {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+  }
+  
+  #call-for-speakers h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #call-for-speakers p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  #call-for-speakers .btn-primary {
+    background-color: #D00000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #call-for-speakers .btn-primary:hover {
+    background-color: #FF6F00;
+  }
+  
