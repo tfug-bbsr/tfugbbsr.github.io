@@ -1,78 +1,42 @@
-/* Hero Section */
-#hero {
-    
-    background-position: center;
-    color: #000000;
-    padding: 100px 0;
-    text-align: center;
-  }
+/* Hero Section Styles */
+
   
-  #hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  #hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-  
-  #hero .btn-primary {
-    background-color: #D00000;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  #hero .btn-primary:hover {
-    background-color: #FF6F00;
-  }
-  
-  /* About Section */
-  #about {
-    padding: 100px 0;
-  }
-  
-  #about h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-  
-  #about p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 40px;
-  }
-  
-  /* Call for Speakers Section */
-  #call-for-speakers {
-    background-color: #f4f4f4;
-    padding: 100px 0;
-  }
-  
-  #call-for-speakers h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-  
-  #call-for-speakers p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 40px;
-  }
-  
-  #call-for-speakers .btn-primary {
-    background-color: #D00000;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  #call-for-speakers .btn-primary:hover {
-    background-color: #FF6F00;
-  }
-  
+  /* Speakers Section Styles */
+#speakers {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.speaker-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  margin: 20px;
+  width: 12em;
+  padding: 20px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.speaker img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.436);
+}
+
+.speaker h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #f4f4f4;
+}
+
+.speaker p {
+  font-size: 15px;
+  color: #f4f4f4;
+}
