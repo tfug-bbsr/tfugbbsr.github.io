@@ -1,8 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TFUG Bhubaneswar</title>
+          <!-- Favicon -->
+        <link rel="icon" href="./assets/img/logo/TF_White_Icon.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="./assets/img/logo/TF_White_Icon.svg" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <!-- Include Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/gallery.css">
+        <style>
+            body{
+                font-family: 'Google Sans Text', sans-serif;
+            }
+        </style>
+    </head>
+<body class="vh=100">
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #000000;" aria-label="Third navbar example">
+        <div class="container-fluid">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="./assets/img/logo/tf_square_trans.gif" class="bi me-2" width="50" height="42" role="img">
+            </a>
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page" href="#">Home</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="text-end">
+           <a href="./register.html" type="button" class="btn btn-outline-light me-2">
+            Join!
+           </a> 
+          </div>
+        </div>
+      </nav>
+
+<!-- Hero Section -->
+<section id="hero" style="background-color: #000000; height: 300px; display: flex; align-items: center;">
+    <div class="container text-center text-white">
+        <h1 class="display-4 fw-bold">Welcome to <span style="color:#FF6F00">TFUG Bhubaneswar</span></h1>
+        <p class="lead">The TensorFlow User Group for AI enthusiasts to collaborate, learn, and share experiences.</p>
+        <!-- <a href="#registration" class="btn btn-primary btn-lg">Join Us!</a> -->
+    </div>
+</section>
+
+<!-- ... (rest of your existing HTML content) ... -->
+
+<!-- Registration Form Section -->
+<section id="registration">
+    <div class="container mt-4 py-1">
+        <h1 class="text-center display-4 fw-bold">Join Us!</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 py-3">
+                <form
+                    method="POST"
+                    action="https://script.google.com/macros/s/AKfycbwb7hRiTgTapSHTqVrFS4QUFiktQV71VxzcjcBaJ1gbkJwjSZwPFNaKoa2W3ryLVTNm/exec"
+                    onsubmit="submitForm(event)"
+                >
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="designation" class="form-label">Designation/Role:</label>
+                        <input type="text" class="form-control" id="designation" name="designation" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="organization" class="form-label">Organisation/Institute:</label>
+                        <input type="text" class="form-control" id="organization" name="organization" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Gender:</label>
+                        <select class="form-select" id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">Your Phone Number:</label>
+                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Register</button>
+                    <div id="loadingSpinner" style="display: none; color: #39ff14;">Loading...</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+      <!-- Footer -->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0" style="padding: 10px; background-color: #0f0e0e;">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img src="./assets/img/logo/3p-logo.png" width="100vw" alt="">
+          </a>
+        </div>
+      
+        <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://twitter.com/tfugbbsr"><i class="bi bi-twitter" style="color: wheat;"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://instagram.com/tfugbbsr"><i class="bi bi-instagram" style="color: wheat;"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/company/tfugbbsr/"><i class="bi bi-linkedin" style="color: wheat;"></i></a></li>
+        </ul>
+      
+        <!-- Community Guidelines Link -->
+        <div class="col-md-4 text-md-center mt-3">
+          <a href="https://developers.google.com/community-guidelines" class=" text-decoration-none" style="color: rgb(255, 255, 255);">Community Guidelines</a>
+        </div>
+      </footer>
+
+<script src="./js/data.js"></script>
 
 
-<html>
-    <title>TFUG Bhubaneswar Community</title>
-<body>
-    <script>window.location.replace("https://chat.whatsapp.com/DVoLS4a1t5DGBDp26gQUQR")</script>
+<!-- Modal for Loading Spinner -->
+<div class="modal fade" id="loadingModal" tabindex="-1" aria-labelledby="loadingModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="background-color: #00000000;">
+        <div class="modal-content" style="background-color: #00000000; border-color: #00000000; box-shadow: none;">
+            <div class="modal-body text-center">
+                <div id="loadingSpinner" style="color: #39ff14;">
+                    <!-- Use a rotating loading spinner, for example, Font Awesome rotating icon -->
+                    <i class="fas fa-spinner fa-spin fa-3x"></i>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ... (your existing HTML content) ... -->
+
+<!-- Modal for Success Message -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Data successfully stored!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
