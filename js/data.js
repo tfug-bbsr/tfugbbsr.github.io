@@ -29,7 +29,7 @@ async function submitForm(event) {
             // Show a warning message
                 // const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'));
                 // loadingModal.hide();
-            alert('Email already exists. Please use a different email.');
+            alert('User already exsists!');
         } else {
             // Proceed with form submission
             const email = formData.get('email');  // Assuming 'email' is the name attribute of the email input field
@@ -39,7 +39,7 @@ async function submitForm(event) {
         
             if (emailExists) {
                 // If email exists, show a warning to the user
-                alert('Email already exists. Please use a different email address.');
+                alert('User already exsists!');
             } else {
                 // If email does not exist, continue with the form submission
         
