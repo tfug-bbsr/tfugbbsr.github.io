@@ -1,4 +1,12 @@
 [
+      {
+      "title": "Exploring LLMs & ChatBot",
+      "date": "2024-01-20",
+      "location": "Online",
+      "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
+      "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1704342255/tfug_events/llms_kugrxg.png",
+      "link": "https://tfugbbsr.github.io/register"
+    },
     {
       "title": "Keras Community Day",
       "date": "2023-09-30",
@@ -10,7 +18,7 @@
     {
         "title": "Explore TFJs",
         "date": "2023-10-15",
-        "location": "TBD",
+        "location": "Online",
         "shortDescription": "Explore the magic of TFJs",
         "banner": "./assets/events/tfugbbsr.png",
         "link": ""
