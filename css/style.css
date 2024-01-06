@@ -50,6 +50,11 @@
   padding: 40px 0;
 }
 
+#speakers{
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
 .v-card {
   background-color: #fff;
   border-radius: 10px;
