@@ -1,35 +1,63 @@
 [
-    {
-      "title": "Keras Community Day",
-      "date": "2023-09-30",
-      "location": "Online",
-      "shortDescription": "Keras Community Day is a series of events focused on Keras and machine learning, led by machine learning communities around the world.",
-      "banner": "./assets/events/kcd/kcd.png",
-      "link": "https://tfugbbsr.github.io/apply"
-    },
-    {
-        "title": "Explore TFJs",
-        "date": "2023-10-15",
-        "location": "TBD",
-        "shortDescription": "Explore the magic of TFJs",
-        "banner": "./assets/events/tfugbbsr.png",
-        "link": ""
+  {
+    "title": "Exploring LLMs & ChatBot",
+    "date": "2024-01-20",
+    "location": "Online",
+    "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
+    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1704342255/tfug_events/llms_kugrxg.png",
+    "link": "https://tfugbbsr.github.io/register",
+    "speakers": []
+  },
+  {
+    "title": "Keras Community Day",
+    "date": "2023-09-30",
+    "location": "Online",
+    "shortDescription": "Keras Community Day is a series of events focused on Keras and machine learning, led by machine learning communities around the world.",
+    "banner": "./assets/events/kcd/kcd.png",
+    "link": "https://tfugbbsr.github.io/apply",
+    "speakers": [
+      {
+        "name": "Vrijraj Singh",
+        "title": "Tech Lead, agprop\nCommunity Organizer, Techferment\nGDE for Firebase and Web",
+        "image": "./assets/events/kcd/speaker1.png"
       },
       {
-        "title": "Google IO Extended Bhubaneswar",
-        "date": "2023-07-22",
-        "location": "Trident College, BBSR",
-        "shortDescription": "Google I/O Extended 2023 Bhubaneswar",
-        "banner": "./assets/events/tfugbbsr.png",
-        "link": ""
+        "name": "Anish Kumar",
+        "title": "AI Software Engineering Manager, Intel",
+        "image": "./assets/events/kcd/speaker2.png"
       },
       {
-        "title": "Deploying Your First ML Model on GCP",
-        "date": "2023-05-06",
-        "location": "Srushti Academy, BBSR",
-        "shortDescription": "Developing and Deploying Your First Machine Learning Model on Google Cloud",
-        "banner": "./assets/events/tfugbbsr.png",
-        "link": ""
+        "name": "Suryansu Dash",
+        "title": "Data Science Manager, Newton School",
+        "image": "./assets/events/kcd/speaker3.png"
       }
-  ]
-  
+    ]
+  },
+  {
+    "title": "Explore TFJs",
+    "date": "2023-10-15",
+    "location": "Online",
+    "shortDescription": "Explore the magic of TFJs",
+    "banner": "./assets/events/tfugbbsr.png",
+    "link": "",
+    "speakers": []
+  },
+  {
+    "title": "Google IO Extended Bhubaneswar",
+    "date": "2023-07-22",
+    "location": "Trident College, BBSR",
+    "shortDescription": "Google I/O Extended 2023 Bhubaneswar",
+    "banner": "./assets/events/tfugbbsr.png",
+    "link": "",
+    "speakers": []
+  },
+  {
+    "title": "Deploying Your First ML Model on GCP",
+    "date": "2023-05-06",
+    "location": "Srushti Academy, BBSR",
+    "shortDescription": "Developing and Deploying Your First Machine Learning Model on Google Cloud",
+    "banner": "./assets/events/tfugbbsr.png",
+    "link": "",
+    "speakers": []
+  }
+]
