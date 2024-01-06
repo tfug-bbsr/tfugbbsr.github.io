@@ -40,6 +40,7 @@ async function submitForm(event) {
                 // Show a success message using a Bootstrap modal
                 const successModal = new bootstrap.Modal(document.getElementById('successModal'));
                 successModal.show();
+                loadingModal.hide();
 
                 // Redirect to the specified URL after a delay (if needed)
                 setTimeout(() => {
