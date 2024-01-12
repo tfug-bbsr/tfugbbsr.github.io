@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 indicator.setAttribute('data-bs-slide-to', index);
 
                 const imageDiv = document.createElement('div');
-                imageDiv.classList.add('carousel-item');
+                imageDiv.classList.add('carousel-item'); // Updated class name
 
                 const img = document.createElement('img');
                 img.src = item.image;
@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 carouselIndicators.appendChild(indicator);
                 imageDiv.appendChild(img);
                 carouselInner.appendChild(imageDiv);
+            });
+
+            // Set the interval for sliding after 2 seconds
+            const imageCarousel = new bootstrap.Carousel(document.getElementById('imageCarousel'), {
+                interval: 3000 // Interval in milliseconds
             });
         })
         .catch(error => console.error('Error loading gallery:', error));
