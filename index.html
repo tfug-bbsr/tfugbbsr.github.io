@@ -52,18 +52,21 @@
     </nav>
 
     <!-- Hero -->
-    <div class="container col-xxl-8 px-1 py-5  d-flex align-items-center justify-content-center vh-100" style="padding-bottom: 0rem!important;">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/img/logo/3p-logo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-6 fw-bold lh-1 mb-3">TensorFlow User Group <br> <span style="color:#FF6F00">Bhubaneswar</span></h1>
-                <p class="lead">The TFUG Bhubaneswar is a TensorFlow community for AI enthusiasts to collaborate, learn, and share experiences. Offering events, workshops, and talks by experts, it's a resource for improving TensorFlow and AI skills. Join the community for cutting-edge advancements in AI.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a type="button" class="btn btn-lg px-4 me-md-2" href="./join.html" style="background-color: #D00000; color: azure;">Join the Community</a>
-                    <!-- <a type="button" class="btn btn-warning btn-lg px-4 me-md-2" href="./register">Community</a> -->
-                </div> 
+    <div class="hero-container" >
+        <canvas id="neuronCanvas"></canvas>
+        <div class="container col-xxl-8 px-1 py-5 d-flex align-items-center justify-content-center" style="padding-bottom: 0rem!important; z-index: 2;" >
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 " style="padding: 1em;">
+                <div class="col-10 col-sm-8 col-lg-6" style="padding-top: 3em;">
+                    <img src="./assets/img/logo/3p-logo.png" class="d-block mx-lg-auto img-fluid"  width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-6 fw-bold lh-1 mb-3" style="color: white;">TensorFlow User Group <br> <span style="color:#FF6F00">Bhubaneswar</span></h1>
+                    <p class="lead" style="color: white;">The TFUG Bhubaneswar is a TensorFlow community for AI enthusiasts to collaborate, learn, and share experiences. Offering events, workshops, and talks by experts, it's a resource for improving TensorFlow and AI skills. Join the community for cutting-edge advancements in AI.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a type="button" class="btn btn-lg px-4 me-md-2" href="./join.html" style="background-color: #D00000; color: azure;">Join the Community</a>
+                        <a type="button" class="btn btn-warning btn-lg px-4 me-md-2" href="#events">Events</a>
+                    </div> 
+                </div>
             </div>
         </div>
     </div>
@@ -167,8 +170,7 @@
         <div class="col-md-4 text-md-center mt-3">
             <a href="https://developers.google.com/community-guidelines" class=" text-decoration-none" style="color: rgb(255, 255, 255);">Community Guidelines</a>
         </div>
-    </footer>
-
+    </footer>   
     <script src="./js/events.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/script.js"></script>
