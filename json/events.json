@@ -1,5 +1,20 @@
 [
   {
+    "title": "Applications using LLM",
+    "date": "2024-08-10",
+    "location": "TBD",
+    "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
+    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1722079223/tfug_events/llms-1_dddbsp.png",
+    "link": "https://tfugbbsr.github.io/register",
+    "speakers": [
+      {
+        "name": "Puspanjali Mohapatra",
+        "title": "Assistant Professor (CSE) at IIIT Bhubaneswar",
+        "image": "../assets/img/avataar/2.png"
+      }
+    ]
+  },
+  {
     "title": "Exploring LLMs & ChatBot",
     "date": "2024-02-11",
     "location": "Online",
