@@ -163,47 +163,4 @@ function createEventCard(event, isUpcoming) {
   return eventCard;
 }
 
-// Function to fetch and display all events
-async function displayEvents() {
-  try {
-    const response = await fetch('./json/events.json');
-    const eventData = await response.json();
 
-    const eventListContainer = document.getElementById('all-events');
-
-    // Sort events by date in descending order (most recent first)
-    eventData.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    // Display all events
-    eventData.forEach((event, index) => {
-      event.id = index; // Add an ID to each event
-      const isUpcoming = new Date(event.date) >= new Date();
-      const eventCard = createEventCard(event, isUpcoming);
-      eventListContainer.appendChild(eventCard);
-    });
-
-    // Trigger the modal for the first event when the page loads
-    const eventModal = new bootstrap.Modal(document.getElementById('eventModal'));
-    if (eventData.length > 0) {
-      const firstEvent = eventData[0];
-      const eventModalBody = document.getElementById('eventModalBody');
-      eventModalBody.innerHTML = `
-        <h5>${firstEvent.title}</h5>
-        <img src="${firstEvent.banner}" width="200"></img>
-        <p>Date: ${firstEvent.date}</p>
-        <p>Location: ${firstEvent.location}</p>
-        <p>Description: ${firstEvent.description}</p>
-        <div class="card-body">
-          ${isUpcoming ? `<a href="${firstEvent.link}" class="btn btn-warning" target="_blank">Register</a>` : ''}
-        </div>
-      `;
-
-      eventModal.show(); // Trigger the modal open function
-    }
-  } catch (error) {
-    console.error('Error loading events:', error);
-  }
-}
-
-// Call the function to load all events when the page loads
-window.addEventListener('load', displayEvents);
