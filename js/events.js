@@ -66,6 +66,9 @@ async function loadEvents() {
         <p>Date: ${firstEvent.date}</p>
         <p>Location: ${firstEvent.location}</p>
         <p>Description: ${firstEvent.description}</p>
+      <div class="card-body">
+        ${isUpcoming ? `<a href="${event.link}" class="btn btn-warning" target="_blank">Register</a>` : ''}
+      </div>
       `;
 
       eventModal.show(); // Trigger the modal open function
