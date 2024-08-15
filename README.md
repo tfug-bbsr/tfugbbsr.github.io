@@ -1,3 +1,3 @@
 ## Website of TFUG Bhubaneswar
 
-![image](https://github.com/tfugbbsr/tfugbbsr.github.io/assets/121217818/52c7eb63-3a2f-4eb1-a0aa-9c0f384f5783)
+![image](https://github.com/user-attachments/assets/e119f6c3-d628-4da0-8048-2aed215481ce)
