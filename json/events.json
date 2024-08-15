@@ -1,16 +1,31 @@
 [
   {
+    "title": "Getting Started with Gemini ✨",
+    "date": "2024-08-24",
+    "location": "YouTube",
+    "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
+    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1723714157/tfug_events/llms-2_asa8bl.png",
+    "link": "https://tfugbbsr.github.io/register",
+    "speakers": [
+      {
+        "name": "Saswat Samal",
+        "title": "Data Scientist, Ernst & Young GDS",
+        "image": "../assets/img/avataar/1.png"
+      }
+    ]
+  },
+  {
     "title": "Applications using LLM",
     "date": "2024-08-10",
     "location": "KIIT Bhubaneswar",
     "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
-    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1722079223/tfug_events/llms-1_dddbsp.png",
+    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1723714157/tfug_events/llms-1_it3ne5.png",
     "link": "https://tfugbbsr.github.io/register",
     "speakers": [
       {
         "name": "Puspanjali Mohapatra",
         "title": "Assistant Professor (CSE) at IIIT Bhubaneswar",
-        "image": "../assets/img/avataar/2.png"
+        "image": "./assets/events/eras-of-llms/speaker-1.jpg"
       }
     ]
   },
