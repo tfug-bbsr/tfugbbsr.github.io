@@ -1,12 +1,33 @@
 [
   {
+    "title": "The Eras of LLMs: From Concept to Creation",
+    "date": "2024-09-14",
+    "location": "IIIT Bhubaneswar",
+    "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
+    "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1724781273/tfug_events/llms-4_ebiuki.png",
+    "link": "https://tfugbbsr.in/register.html",
+    "speakers": [  
+      {
+        "name": "Tarun R Jain",
+        "title": "ML @AI Planet, GDE in AI/ML",
+        "image": "./assets/events/eras-of-llms/speaker-4.png"
+      }
+      ]
+  },
+  {
     "title": "Build with Gemini ✨",
-    "date": "2024-08-30",
-    "location": "TBD",
+    "date": "2024-09-01",
+    "location": "YouTube",
     "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
     "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1723725672/tfug_events/llms-3_karenm.png",
-    "link": "https://tfugbbsr.github.io/register",
-    "speakers": [    ]
+    "link": "https://tfugbbsr.in/register.html",
+    "speakers": [  
+      {
+        "name": "Swoyam Siddarth",
+        "title": "AI Intern @ fiXit",
+        "image": "./assets/events/eras-of-llms/speaker-3.jpg"
+      }
+      ]
   },
   {
     "title": "Getting Started with Gemini ✨",
@@ -14,12 +35,12 @@
     "location": "YouTube",
     "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
     "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1723714157/tfug_events/llms-2_asa8bl.png",
-    "link": "https://tfugbbsr.github.io/register",
+    "link": "https://tfugbbsr.in/register.html",
     "speakers": [
       {
         "name": "Saswat Samal",
         "title": "Data Scientist, Ernst & Young GDS",
-        "image": "../assets/img/avataar/1.png"
+        "image": "./assets/events/eras-of-llms/speaker-2.png"
       }
     ]
   },
@@ -29,7 +50,7 @@
     "location": "KIIT Bhubaneswar",
     "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
     "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1723714157/tfug_events/llms-1_it3ne5.png",
-    "link": "https://tfugbbsr.github.io/register",
+    "link": "https://tfugbbsr.in/register.html",
     "speakers": [
       {
         "name": "Puspanjali Mohapatra",
@@ -44,7 +65,7 @@
     "location": "Online",
     "shortDescription": "Dive into the world of language models at our event! Unleash ChatBot potential in just one immersive experience.",
     "banner": "https://res.cloudinary.com/ddkjclt8n/image/upload/v1704342255/tfug_events/llms_kugrxg.png",
-    "link": "https://tfugbbsr.github.io/register",
+    "link": "https://tfugbbsr.in/register.html",
     "speakers": []
   },
   {
@@ -53,7 +74,7 @@
     "location": "Online",
     "shortDescription": "Keras Community Day is a series of events focused on Keras and machine learning, led by machine learning communities around the world.",
     "banner": "./assets/events/kcd/kcd.png",
-    "link": "https://tfugbbsr.github.io/apply",
+    "link": "https://tfugbbsr.in/apply",
     "speakers": [
       {
         "name": "Vrijraj Singh",
